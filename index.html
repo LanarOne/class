@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>War Mecas</h1>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <section class="formulaire">
+                <h2>Nouveau Meca</h2>
+                <form action="" id="formulaire">
+                    <label for="name">Nom</label>
+                    <input type="text" name="name" id="mecaName">
+                    <label for="type">Type</label>
+                    <select name="type" id="mecaType">
+                        <option value="armored">Armored</option>
+                        <option value="contact">Contact</option>
+                        <option value="sniper">Sniper</option>
+                        <option value="flying">Flying</option>
+                    </select>
+                    <label for="pv">Point de vie</label>
+                    <input type="number" name="pv" id="mecaPv">
+                    <label for="attack">Attaque</label>
+                    <input type="number" name="attack" id="mecAttack">
+                    <label for="defense">Défense</label>
+                    <input type="number" name="defense" id="mecaDef">
+                    <input type="submit" value="envoyer">
+
+                </form>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="assets/js/script.js"></script>
+</body>
+</html>
